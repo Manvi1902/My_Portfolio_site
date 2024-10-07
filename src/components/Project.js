@@ -7,11 +7,12 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   
    const majorProjects = [
+     
     {
       title: "BITR CollegeCircle: Socio-Academic Website",
       techUsed: "HTML, CSS, PHP, JavaScript, phpMyAdmin, Xampp Server.",
       description:"This app is designed for college students, providing information about BITR College, Faculty, Alumni, Placement Training, Career Roadmap, etc",
-      learning: "CRUD operations, database connection, JavaScript DOM",
+      learning: "Developed proficiency in performing CRUD operations, establishing database connections, and manipulating the JavaScript DOM",
       imgUrl: "/images/tech/college.png",
       githubLink:"https://github.com/Manvi1902/College-Circle-Project"
     },
@@ -19,7 +20,7 @@ export const Projects = () => {
       title: "Beauty Diva website",
       techUsed: "HTML,CSS,Javascript,Vite",
       description:"A beauty product website providing a seamless shopping experience,featuring dynamic product displays and add-to-cart functionality.",
-      learning: "add to cart functionality, storing & fetching data in local storage",
+      learning: " Implemented add-to-cart functionality to enhance user experience, utilized local storage for efficient data storage and retrieval, and mastered CSS properties along with advanced concepts like Flexbox and Grid for responsive design. Gained practical knowledge in developing interactive web applications.",
       imgUrl:"/images/tech/beautyDiva.png",
       githubLink:"https://github.com/Manvi1902/-Brainwave_Matrix_Intern/tree/main/Ecommerce_Website/Beauty_Diva_website/src"
     },
@@ -27,7 +28,7 @@ export const Projects = () => {
       title: "World Wise Travel Website",
       techUsed: "React, Context API, React Hooks, Vite, CSS",
       description:"React-based website enabling users to select a city and country while adding personalized travel notes that include date, city, and country details. ",
-      learning: "React Components,Hooks,uses of Context API ",
+      learning: "Gained knowledge in Context API, component design, and React Hooks. ",
       imgUrl: "/images/tech/world.png",
       githubLink:"https://github.com/Manvi1902/World-Wise-Website"
     },
@@ -36,7 +37,7 @@ export const Projects = () => {
       title: "Container Management Site: Using Docker",
       techUsed: "HTML, CSS, EC2 Instance, Docker, GitLab.",
       description:"This application allows instant launching of OS without the need for bootable media. Ideal for fast development and deployment.",
-      learning: "EC2 connection, Docker Commands, GitLab",
+      learning: "Gained a strong proficiency in connecting to EC2 instances, utilizing Docker commands, and managing projects with GitLab.",
       imgUrl: "/images/tech/dockerproj.png",
       githubLink:"https://github.com/Manvi1902/DockerContainer"
     },
@@ -44,16 +45,12 @@ export const Projects = () => {
       title: "Live Linux Command Shell" ,
       techUsed:"EC2 instance, HTML, CSS, Python, JavaScript.",
       description:"AWS cloud-based live Linux shell for running commands without installing Linux OS.",
-      learning: "deployment on EC2 instance, Python CGI",
+      learning: "Enhancing my grasp of EC2 instance management and utilizing Python CGI for web development.",
       imgUrl: "/images/tech/linux.png",
-      githubLink:"https://github.com/Manvi1902/Live-Linux-Shell"
-    }, 
-    
+      githubLink:"https://github.com/Manvi1902/Live-Linux-Shell."
+    },
      
   ];
-  
-  
- 
 
   const minorProjects = [
    
@@ -62,6 +59,7 @@ export const Projects = () => {
       techUsed: "MongoDB, Node.js, Express.js, Postman API tool",
       imgUrl: "/images/tech/backend.jpg",
       description:"Developed backend for a blog app.It serves as the foundation for managing blog posts, & user authentication.",
+      learning: "Gained experience with CRUD operations, database connections, and API development using Node.js and Express.js.",
       githubLink:"https://github.com/Manvi1902/Blog-App"
     },
     {
@@ -69,7 +67,7 @@ export const Projects = () => {
       techUsed: "HTML,CSS,Javascript",
       imgUrl:"/images/tech/TodoList.png",
       description:"A simple and interactive ToDo list that allows users to add, delete, and edit their tasks.",
-      learning: "CRUD operations, database connection, JavaScript DOM",
+      learning: "Developed skills in CRUD operations, JavaScript DOM manipulation, and front-end design using HTML and CSS.",
       githubLink:"https://github.com/Manvi1902/-Brainwave_Matrix_Intern/tree/main/To-Do-List"
     },
     {
@@ -77,7 +75,7 @@ export const Projects = () => {
       techUsed: "React.js, Firebase , Material design, CSS ",
       imgUrl:"/images/tech/chat-app.jpg", 
       description:"A real-time chat app built with React that supports instant messaging and notifications.",
-      learning: "CRUD operations, database connection, JavaScript DOM",
+      learning: "Enhanced knowledge of CRUD operations, real-time data handling, and React.js for interactive user experiences.",
       githubLink:"https://github.com/Manvi1902/ChatApp"
     },
     
