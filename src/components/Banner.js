@@ -71,7 +71,7 @@ export const Banner = () => {
                   I enjoy solving complex real-world problems creatively and Ready to enhance 
                   my skills while contributing to innovative projects that make a remarkable impact.
                  </p>
-                  <a href='https://drive.google.com/file/d/1zp9AST62J6wXVBCjG8V_GNXRtFPkJGlF/view?usp=sharing'>
+                  <a href='https://drive.google.com/file/d/1dBgC7LmNZaNP70e0wfIOid7kES37ka45/view?usp=sharing'>
                       <button className="resume-link"><span>My Resume</span></button>
                   </a>
               </div>}
