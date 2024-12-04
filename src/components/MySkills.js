@@ -1,14 +1,10 @@
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-//import arrow1 from "../assets/img/meter3.svg";
-//import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
-
-import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import { Row, Col } from "react-bootstrap";
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+
 
 export const MySkills = () => {
   const responsive = {
@@ -59,8 +55,20 @@ export const MySkills = () => {
                                 <h5>CSS3</h5>
                             </div>
                             <div className="item">
+                                <img src="/images/tech/tailwind-css.png" alt="Img" />
+                                <h5>Tailwind CSS</h5>
+                            </div>
+                            <div className="item">
                                 <img src="/images/tech/javascript.png" alt="Img" />
                                 <h5>Javascript</h5>
+                            </div>
+                            <div className="item">
+                                <img src="/images/tech/Type.png" alt="Img" />
+                                <h5>TypeScript</h5>
+                            </div>
+                            <div className="item">
+                                <img src="/images/tech/reactjs.png" alt="Img" />
+                                <h5>ReactJS</h5>
                             </div>
                             <div className="item">
                                 <img src="/images/tech/mongodb.png" alt="Img" />
@@ -69,10 +77,6 @@ export const MySkills = () => {
                             <div className="item">
                                 <img src="/images/tech/express-js.png" alt="Img" />
                                 <h5>ExpressJS</h5>
-                            </div>
-                            <div className="item">
-                                <img src="/images/tech/reactjs.png" alt="Img" />
-                                <h5>ReactJS</h5>
                             </div>
                             <div className="item">
                                 <img src="/images/tech/nodejs.png" alt="Img" />

@@ -66,7 +66,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                   A passionate MERN developer with a solid foundation in technologies like MongoDB, ExpressJS, NodeJS, ReactJS, JavaScript, C++, and HTML/CSS. 
+                   A passionate MERN developer with a solid foundation in technologies like MongoDB, ExpressJS, NodeJS, ReactJS, JavaScript,TypeScript, C++, and HTML/CSS. 
                   Through internships, personal projects, and coursework ,developed skills in building responsive, user-friendly web applications.
                   I enjoy solving complex real-world problems creatively and Ready to enhance 
                   my skills while contributing to innovative projects that make a remarkable impact.
