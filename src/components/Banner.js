@@ -13,7 +13,7 @@ export const Banner = () => {
   const toRotate = [ "Coder", "MERN Stack Developer","Frontend Developer", "Backend Developer", "UI/UX Designer"];
   const period = 2000;
 
-  
+ 
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
@@ -71,7 +71,7 @@ export const Banner = () => {
                   I enjoy solving complex real-world problems creatively and Ready to enhance 
                   my skills while contributing to innovative projects that make a remarkable impact.
                  </p>
-                  <a href='#resumelink'>
+                  <a href='https://drive.google.com/file/d/1mVNvNpz8dGqOk0Mu7Yd2OLZG6qQ6VhhW/view?usp=sharing'>
                       <button className="resume-link"><span>My Resume</span></button>
                   </a>
               </div>}
