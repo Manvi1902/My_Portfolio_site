@@ -14,8 +14,9 @@ export const Contact = () => {
   return (
     <section className="contact" id="connect">
       <Container>
+      <h2>Get In Touch With Me</h2>
         <Row className="align-items-center">
-          <Col size={12} md={6}>
+          <Col size={12} lg={6} className="contact-img">
             <TrackVisibility>
               {({ isVisible }) =>
                 <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
@@ -23,9 +24,9 @@ export const Contact = () => {
             </TrackVisibility>
           </Col>
         
-          <Col size={12} md={6} className="contact-me">
-             <h2>Get In Touch With Me</h2>
-                  <div className="contact-section">
+          <Col size={12} lg={6} className="contact-me">
+            
+                <div className="contact-section">
                   <br/><br/>
                     <div className="contact-info">
                        <img src={location} alt="location" className="contact-icon"/>

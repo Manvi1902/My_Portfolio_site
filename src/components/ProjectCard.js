@@ -8,7 +8,7 @@ export const ProjectCard = ({ title, techUsed, imgUrl,description,learning ,gith
   };
   
   return (
-    <Col size={12} sm={12} md={6} lg={4} >
+    <Col size={12} sm={12} md={6} lg={6} xl={4} className="project-card">
       <div className="proj-imgbx" onClick={openGithubLink} style={{ cursor: "pointer" }}>
         <img src={imgUrl} alt="text" className="project-img"/>
         <div className="proj-txtx">

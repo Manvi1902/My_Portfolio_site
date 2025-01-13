@@ -10,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Coder", "MERN Stack  Developer","Frontend Developer", "Backend Developer", "Quick Learner"];
+  const toRotate = [ "Coder", "MERN Stack Developer","Frontend Developer", "Backend Developer", "UI/UX Designer"];
   const period = 2000;
 
   
@@ -53,7 +53,7 @@ export const Banner = () => {
         <Col>
         <img src={profileImg} alt="profile-img" className="Profile-Image"/>
         </Col>
-        <Col xs={12} md={6} xl={7}>
+        <Col xs={12} md={6} xl={7} className="hero-section">
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
@@ -66,12 +66,12 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                   A passionate MERN developer with a solid foundation in technologies like MongoDB, ExpressJS, NodeJS, ReactJS, JavaScript,TypeScript, C++, and HTML/CSS. 
+                   A passionate MERN developer with a solid foundation in technologies like MongoDB, ExpressJS, NodeJS, ReactJS, JavaScript, C++, and HTML/CSS. 
                   Through internships, personal projects, and coursework ,developed skills in building responsive, user-friendly web applications.
                   I enjoy solving complex real-world problems creatively and Ready to enhance 
                   my skills while contributing to innovative projects that make a remarkable impact.
                  </p>
-                  <a href='https://drive.google.com/file/d/1hKWW3CWuZVsjaDUmJ1LA3IbZMEVGeR2k/view?usp=sharing'>
+                  <a href='#resumelink'>
                       <button className="resume-link"><span>My Resume</span></button>
                   </a>
               </div>}

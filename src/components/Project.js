@@ -6,7 +6,7 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
   
-   const advancedProjects = [
+  const advancedProjects = [
 
     {
       title: "BITR CollegeCircle: Socio-Academic Website",
@@ -131,7 +131,7 @@ export const Projects = () => {
         description: "A robust form generation platform allowing users to dynamically create and manage forms with enhanced responsiveness and accessibility.",  
         learning: "Gained expertise in implementing TypeScript for scalable development, crafting responsive designs using Tailwind CSS, and performing E2E testing with Playwright to ensure application reliability.",  
         imgUrl: "/images/tech/project-img3.png",  
-        githubLink: "#"  
+        githubLink: "https://github.com/Manvi1902/Dynamic-From-Generation"  
     },  
     {  
         title: "My Portfolio",  
@@ -146,7 +146,6 @@ export const Projects = () => {
   ];
 
 
-
   return (
     <section className="project" id="projects">
       <Container>
@@ -158,8 +157,8 @@ export const Projects = () => {
                 <h2>Projects</h2>
                 <p>Worked on numerous projects that Transform my Ideas into Functional Web Applications.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
+                  <Nav variant="pills" className="nav-pills mb-5  justify-content-space-around align-items-center" id="pills-tab">
+                  <Nav.Item>
                       <Nav.Link eventKey="first">ReactJS Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
@@ -168,8 +167,6 @@ export const Projects = () => {
                     <Nav.Item>
                       <Nav.Link eventKey="third">Advanced Projects</Nav.Link>
                     </Nav.Item>
-                    
-                  
                  
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
