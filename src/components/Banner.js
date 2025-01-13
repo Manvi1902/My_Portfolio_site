@@ -13,7 +13,6 @@ export const Banner = () => {
   const toRotate = [ "Coder", "MERN Stack Developer","Frontend Developer", "Backend Developer", "UI/UX Designer"];
   const period = 2000;
 
- 
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
@@ -43,6 +42,7 @@ export const Banner = () => {
       setDelta(500);
     } else {
       setIndex(prevIndex => prevIndex + 1);
+      console.log(index);
     }
   }
 
@@ -66,7 +66,6 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-<<<<<<< HEAD
                    A passionate MERN developer with a solid foundation in technologies like MongoDB, ExpressJS, NodeJS, ReactJS, JavaScript, C++, and HTML/CSS. 
                   Through internships, personal projects, and coursework ,developed skills in building responsive, user-friendly web applications.
                   I enjoy solving complex real-world problems creatively and Ready to enhance 
@@ -75,14 +74,6 @@ export const Banner = () => {
                   <a href='https://drive.google.com/file/d/1mVNvNpz8dGqOk0Mu7Yd2OLZG6qQ6VhhW/view?usp=sharing'>
                       <button className="resume-link"><span>My Resume</span></button>
                   </a>
-=======
-                   I’m a self-motivated, quick-thinking coder who loves to 
-                  tackle challenging real-world issues. 
-                  My curiosity fuels my enthusiasm for technology, and during my bachelor's degree,
-                I worked with a range of programming languages and frameworks, such as C++, the MERN Stack, SQL, HTML5, CSS, JavaScript, TypeScript, and many more.
-                 </p>
-                     
->>>>>>> 3484a9e170e54aed0b51c27176accfc2a08ae7e3
               </div>}
             </TrackVisibility>
         </Col>
