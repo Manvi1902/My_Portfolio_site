@@ -53,14 +53,15 @@ export const Banner = () => {
         <Col>
         <img src={profileImg} alt="profile-img" className="Profile-Image"/>
         </Col>
-        <Col xs={12} md={6} xl={7} className="hero-section">
+        <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+              <div className="hero-section">
                 <span className="tagline">Welcome to my Portfolio</span><br/>
                 <h1>
                     {`Hi! I'm `}
-                    <span style={{ color: " rgba(219, 2, 205, 0.902)", fontWeight: "bold" }}>Manvi Dewangan </span>
+                    <span style={{ color: " rgba(219, 2, 205, 0.902)", fontWeight: "bold"  }}>Manvi Dewangan </span>
                     <span className="txt-rotate">
                       <span className="wrap">{text}</span>
                     </span>
@@ -74,6 +75,7 @@ export const Banner = () => {
                   <a href='https://drive.google.com/file/d/1mVNvNpz8dGqOk0Mu7Yd2OLZG6qQ6VhhW/view?usp=sharing'>
                       <button className="resume-link"><span>My Resume</span></button>
                   </a>
+                  </div>
               </div>}
             </TrackVisibility>
         </Col>

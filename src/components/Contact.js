@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,13 +13,13 @@ export const Contact = () => {
  
   return (
     <section className="contact" id="connect">
-      <Container>
-      <h2>Get In Touch With Me</h2>
+      <div className="contact-content">
+      <p className="contact-heading" >Get In Touch With Me</p>
         <Row className="align-items-center">
-          <Col size={12} lg={6} className="contact-img">
+          <Col size={12} lg={6}  className="contact-img">
             <TrackVisibility>
               {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+                <img className={isVisible ? "animate__animated animate__zoomIn" : ""}  src={contactImg} alt="Contact Us"/>
               }
             </TrackVisibility>
           </Col>
@@ -57,7 +57,7 @@ export const Contact = () => {
                   </div>
           </Col>    
         </Row>
-      </Container>
+      </div>
     </section>
   )
 }

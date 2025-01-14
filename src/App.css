@@ -591,9 +591,13 @@ display: inline-block;
 
 
 /************ contact Css ************/
-.contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 100px 10px 80px 0; /*top | right | bottom | left */
+
+.contact-heading{
+  font-size: 40px;
+  font-weight: 700;
+   margin-left: 40%;
+   margin-top: -50px;
+
 }
 
 .contact-section{
@@ -602,8 +606,7 @@ display: inline-block;
   background-color:rgb(252, 252, 252);
   overflow: hidden;
   border-radius: 20px;
-  margin-top: 1rem;
-  margin-left: 5rem;
+  margin-top: 8rem;
   opacity: 0.6;
 }
 .contact h2 {
@@ -637,13 +640,31 @@ display: inline-block;
   margin-left: 1rem;
   color:rgb(0, 0, 0);
 }
-
+.contact-img img{
+  width:500px;
+  height:500px;
+  margin-left: 10rem;
+  margin-top: 8rem;
+}
 
 /*mobile*/
-@media screen and (min-width: 420px) and (max-width:799px){  
+@media screen and (min-width: 300px) and (max-width:414px){  
   
+  .Profile-Image{
+    width:280px;
+    height:450px;
+    margin-left: -20%;
+  }
+
   .hero-section{
     padding-top: 3rem;
+    width: 300px;
+    height: auto;
+    margin-left: -30%;
+    font-size: 18px;
+  }
+  .hero-section h1{
+    font-size: 45px;
   }
   /*----------------------About--------------------*/
   .web-experience{
@@ -672,18 +693,110 @@ display: inline-block;
    
   /*--------------------contact-section--------------------*/
    
+  .contact-heading{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    margin-left:2rem;
+    color: white;
+  }
+
+  .contact-section{
+    width:290px;
+    height: 300px;
+    margin-left: 1rem;
+    margin-top: 0rem;
+  } 
+  .contact-img img{
+    width:250px;
+    height:250px;
+    margin-left: 3rem;
+    margin-top: -5rem;
+  }
+  .contact-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+  }
   
+  .contact-info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+  }
+  .contact-info h4{
+    font-size: 12px;
+    line-height: 1rem;
+    margin-left: 0rem;
+    padding: 0;
+  }
+}
+
+
+
+/*mobile*/
+@media screen and (min-width: 420px) and (max-width:680px){  
+  
+ 
+  .hero-section{
+    padding-top: 3rem;
+    width: 500px;
+    height: auto;
+    font-size: 18px;
+  }
+  .hero-section h1{
+    font-size: 45px;
+  }
+  /*----------------------About--------------------*/
+  .web-experience{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    padding:1rem;
+    height: auto;
+    width: auto;
+
+  }
+  .web-experience h1{
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 10px 12px;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 35px;
+    margin-bottom: 16px;
+    display: inline-block;
+    }
+
+    .proj-imgbx{
+      margin-left:4rem;
+    }
+   
+  /*--------------------contact-section--------------------*/
+   
+  .contact-heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    margin-left:3rem;
+    color: white;
+  }
+
   .contact-section{
     width:auto;
     height: 350px;
     margin-left: auto;
-
-    
+    margin-top: -1rem;
   } 
   .contact-img img{
     width:400px;
     height:400px;
-    margin-left: 0rem;
+    margin-left: 3rem;
+    margin-top: -5rem;
   }
   .contact-icon{
     width: 30px;
