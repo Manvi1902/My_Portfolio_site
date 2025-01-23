@@ -25,14 +25,6 @@ export const Projects = () => {
       imgUrl: "/images/tech/dockerproj.png",
       githubLink:"https://github.com/Manvi1902/DockerContainer"
     },
-    {  
-      title: "ImageWize Image Generation",  
-      techUsed: "ReactJS, NextJS, Tailwind CSS, MongoDB, ExpressJS, NodeJS",  
-      description: "A modern image generation platform offering creative solutions through AI-driven technology.",  
-      learning: "Developed expertise in building scalable full-stack applications using modern frameworks and libraries.",  
-      imgUrl: "/images/tech/dockerproj.png",  
-      githubLink: "https://github.com/Manvi1902/imagewiz"  
-    },  
     {
       title: "Live Linux Command Shell" ,
       techUsed:"EC2 instance, HTML, CSS, Python, JavaScript.",

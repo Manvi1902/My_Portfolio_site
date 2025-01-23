@@ -1,0 +1,218 @@
+
+/************ contact Css ************/
+
+.contact-heading{
+    font-size: 40px;
+    font-weight: 700;
+     margin-left: 40%;
+     margin-top: -50px;
+  
+  }
+  
+  .contact-section{
+    height:400px;
+    width:510px;
+    background: linear-gradient(90.21deg, rgba(242, 136, 199, 0.8) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 8rem;
+  
+  }
+  .contact h2 {
+      font-size: 40px;
+      font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color:white;
+    
+  }
+  .contact-icon{
+    width: 40px;
+    height: 40px;
+    margin-top:0px;
+    margin-left: 0rem;
+  }
+  
+  .contact-info{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 2rem;
+  }
+  .contact-info h4{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 3rem;
+    letter-spacing: 1.5px;
+    margin-left: 1rem;
+    color:white;
+  }
+  .contact-img img{
+    width:500px;
+    height:500px;
+    margin-left: 10rem;
+    margin-top: 8rem;
+  }
+
+  
+/*mobile*/
+@media screen and (min-width: 360px) and (max-width: 430px) {  
+  
+     
+    .contact-heading{
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 5rem;
+      margin-bottom: 6rem;
+      margin-left:2rem;
+      color: white;
+    }
+  
+    .contact-section{
+      width:290px;
+      height: 280px;
+      margin:3rem;
+     
+    } 
+    .contact-img img{
+      width:250px;
+      height:250px;
+      margin-left: 3rem;
+      margin-top: -5rem;
+    }
+    .contact-icon{
+      width: 20px;
+      height: 20px;
+      margin-left: 0px;
+    }
+    
+    .contact-info {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      margin-top: 1rem;
+      margin-left: 0.8rem;
+    }
+    .contact-info h4{
+      font-size: 12px;
+      line-height: 1rem;
+      margin-left: 0rem;
+      padding: 0;
+    }
+  }
+  
+  
+  
+  /*mobile*/
+  @media screen and (min-width: 431px) and (max-width:680px){  
+    
+    .contact-heading{
+      font-size: 40px;
+      font-weight: 700;
+      margin-top: 5rem;
+      margin-bottom: 6rem;
+      margin-left:3rem;
+      color: white;
+    }
+  
+    .contact-section{
+      width:auto;
+      height: 280px;
+      margin-left:2.5rem;
+      margin-top: 0rem;
+    } 
+    .contact-img img{
+      width:400px;
+      height:400px;
+      margin-left: 3rem;
+      margin-top: -5rem;
+    }
+    .contact-icon{
+      width: 30px;
+      height: 30px;
+      margin-left: 5px;
+    }
+    
+    .contact-info{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+    .contact-info h4{
+      font-size: 18px;
+      line-height: 1.5rem;
+      margin-left: 0rem;
+    }
+  }
+  
+  @media screen and (min-width: 800px) and (max-width:991px){
+    
+    .banner{
+      margin: 10rem;
+    }
+    
+    .hero-section{
+      position:block;
+    
+    }
+  
+    .web-experience{
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      height: auto;
+      width: 500px;
+    }
+  
+    .contact-img img{
+      width: 500px;
+      height: 500px;
+      margin-left: 5rem;
+    
+    }
+  
+  }
+    
+  
+  
+      /* Tablets */  
+    @media screen and (min-width:992px) and (max-width: 1024) {  
+     
+      .web-experience{
+        margin-top: 3rem;
+        margin-left: 10rem;
+        margin-right: 1rem;
+        height:500px;
+        width: 900px;
+        background-color:transparent; 
+      }
+      .contact-section{
+        height:420px;
+        width:470px;
+        margin-left:0rem;
+        opacity: 0.6;
+      }
+      .contact-info h4{
+        
+        line-height: 2.5rem;
+        letter-spacing: 1.5px;
+        margin-left: 1rem;
+        color: white;
+      }
+      
+    }
+    
+    /* Desktops */  
+    @media screen and (min-width: 12001px) and (max-width: 1500) {  
+      .proj-imgbx {  
+        width: 300px;
+        margin: 0.5rem; 
+      } 
+    }
+    
+  

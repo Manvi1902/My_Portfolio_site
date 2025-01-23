@@ -7,6 +7,7 @@ import mobile from "../assets/img/tel-icon.png";
 import language from "../assets/img/language.png";
 import email from "../assets/img/email-icon.png";
 import education from "../assets/img/graduation.png";
+import "../css/contact.css"
 
 
 export const Contact = () => {
@@ -27,7 +28,7 @@ export const Contact = () => {
           <Col size={12} lg={6} className="contact-me">
             
                 <div className="contact-section">
-                  <br/><br/>
+                 <br/>
                     <div className="contact-info">
                        <img src={location} alt="location" className="contact-icon"/>
                         <h4>Mungeli, Chhattisgarh,India</h4>

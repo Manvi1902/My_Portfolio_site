@@ -461,7 +461,7 @@ display: inline-block;
 }
 
 .project .nav.nav-pills {
-  width: 72%;
+  width: 100%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -590,65 +590,9 @@ display: inline-block;
 }
 
 
-/************ contact Css ************/
-
-.contact-heading{
-  font-size: 40px;
-  font-weight: 700;
-   margin-left: 40%;
-   margin-top: -50px;
-
-}
-
-.contact-section{
-  height:400px;
-  width:510px;
-  background-color:rgb(252, 252, 252);
-  overflow: hidden;
-  border-radius: 20px;
-  margin-top: 8rem;
-  opacity: 0.6;
-}
-.contact h2 {
-	font-size: 40px;
-	font-weight: 700;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  color:white;
-  
-}
-.contact-icon{
-  width: 40px;
-  height: 40px;
-  margin-top:0px;
-  margin-left: 0rem;
-}
-
-.contact-info{
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  margin-top: 10px;
-  margin-left: 2rem;
-}
-.contact-info h4{
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 3rem;
-  letter-spacing: 1.5px;
-  margin-left: 1rem;
-  color:rgb(0, 0, 0);
-}
-.contact-img img{
-  width:500px;
-  height:500px;
-  margin-left: 10rem;
-  margin-top: 8rem;
-}
 
 /*mobile*/
-@media screen and (min-width: 300px) and (max-width:414px){  
+@media screen and (min-width: 340px) {  
   
   .Profile-Image{
     width:280px;
@@ -674,7 +618,6 @@ display: inline-block;
     padding:1rem;
     height: auto;
     width: auto;
-
   }
   .web-experience h1{
     font-weight: 700;
@@ -688,53 +631,12 @@ display: inline-block;
     }
 
     .proj-imgbx{
-      margin-left:4rem;
+      margin:10px;
     }
-   
-  /*--------------------contact-section--------------------*/
-   
-  .contact-heading{
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 8rem;
-    margin-bottom: 6rem;
-    margin-left:2rem;
-    color: white;
-  }
 
-  .contact-section{
-    width:290px;
-    height: 300px;
-    margin-left: 1rem;
-    margin-top: 0rem;
-  } 
-  .contact-img img{
-    width:250px;
-    height:250px;
-    margin-left: 3rem;
-    margin-top: -5rem;
-  }
-  .contact-icon{
-    width: 20px;
-    height: 20px;
-    margin-left: 0px;
+   
   }
   
-  .contact-info {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 1rem;
-    margin-left: 0.8rem;
-  }
-  .contact-info h4{
-    font-size: 12px;
-    line-height: 1rem;
-    margin-left: 0rem;
-    padding: 0;
-  }
-}
-
 
 
 /*mobile*/
@@ -775,47 +677,8 @@ display: inline-block;
       margin-left:4rem;
     }
    
-  /*--------------------contact-section--------------------*/
-   
-  .contact-heading{
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: 8rem;
-    margin-bottom: 6rem;
-    margin-left:3rem;
-    color: white;
-  }
-
-  .contact-section{
-    width:auto;
-    height: 350px;
-    margin-left: auto;
-    margin-top: -1rem;
-  } 
-  .contact-img img{
-    width:400px;
-    height:400px;
-    margin-left: 3rem;
-    margin-top: -5rem;
-  }
-  .contact-icon{
-    width: 30px;
-    height: 30px;
-    margin-left: 5px;
-  }
   
-  .contact-info{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 1rem;
-    margin-left: 2rem;
-  }
-  .contact-info h4{
-    font-size: 18px;
-    line-height: 1.5rem;
-    margin-left: 0rem;
-  }
+  
 }
 
 @media screen and (min-width: 800px) and (max-width:991px){
@@ -825,8 +688,13 @@ display: inline-block;
   }
   
   .hero-section{
-    position:block;
-  
+    padding-top: 3rem;
+    width: 500px;
+    height: auto;
+    font-size: 20px;
+  }
+  .hero-section h1{
+    font-size: 45px;
   }
 
   .web-experience{
@@ -837,19 +705,23 @@ display: inline-block;
     width: 500px;
   }
 
-  .contact-img img{
-    width: 500px;
-    height: 500px;
-    margin-left: 5rem;
-  
-  }
-
-}
+ }
   
 
 
     /* Tablets */  
   @media screen and (min-width:992px) {  
+
+    
+  .hero-section{
+    padding-top: 3rem;
+    width: 650px;
+    height: auto;
+    font-size: 18px;
+  }
+  .hero-section h1{
+    font-size: 45px;
+  }
    
     .web-experience{
       margin-top: 3rem;
@@ -859,19 +731,7 @@ display: inline-block;
       width: 900px;
       background-color:transparent; 
     }
-    .contact-section{
-      height:420px;
-      width:470px;
-      margin-left:0rem;
-      opacity: 0.6;
-    }
-    .contact-info h4{
-      
-      line-height: 2.5rem;
-      letter-spacing: 1.5px;
-      margin-left: 1rem;
-      color:rgb(0, 0, 0);
-    }
+   
     
   }
   
@@ -882,34 +742,7 @@ display: inline-block;
       margin: 0.5rem; /* Adjust margin for spacing */  
     } 
   }
-  
-/**
-
-.col{
-  width:20px;
-}
-.contact-icon{
-  width: 50px;
-  height: 50px;
-  padding:5px;
-  margin-left: 0rem;
-}
-.contact-me{
-
-opacity: 0.8;
-height:600px;
-width:300px;
- overflow: hidden;
-  border-radius: 20px;
-  color: #fff;
  
-  
-}
-
-
-*/
-
-
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
